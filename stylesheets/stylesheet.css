@@ -57,7 +57,7 @@ body {
 }
 
 a {
-  color: #d5000d;
+  color: #205c90;
 }
 a:hover {
   color: #c5000c;
@@ -72,7 +72,7 @@ header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 48px; font-weight: 900;
   line-height: 1.2;
-  color: #303030;
+  color: #205c90;;
   letter-spacing: -1px;
 }
 
@@ -219,6 +219,7 @@ em {
 table {
   width: 100%;
   border: 1px solid #ebebeb;
+  background-color: white;
 }
 
 th {
@@ -227,7 +228,6 @@ th {
 
 td {
   font-weight: 300;
-  text-align: center;
   border: 1px solid #ebebeb;
 }
 
@@ -255,7 +255,7 @@ h3 {
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: bold;
-  color: #d5000d;
+  color: #205c90;
 }
 
 h4 {
@@ -292,6 +292,8 @@ blockquote {
   margin-bottom: 20px;
   font-size: 1.6em;
   border-left: 10px solid #e9e9e9;
+  float: right;
+  width: 33%;
 }
 
 ul li {
